@@ -33,9 +33,9 @@ const Nav = () => {
     }
   }, [isHome])
 
-  useEffect(() => {
-    pathname === "/" ? setIsHome(true) : setIsHome(false)
-  }, [pathname])
+  // useEffect(() => {
+  //   pathname === "/" ? setIsHome(true) : setIsHome(false)
+  // }, [pathname])
 
   const { toggle } = useMobileMenu()
 
